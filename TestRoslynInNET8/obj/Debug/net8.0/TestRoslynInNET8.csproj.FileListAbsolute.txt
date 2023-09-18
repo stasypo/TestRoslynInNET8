@@ -1,0 +1,5 @@
+C:\Users\Anastasiia.Posulikhi\TestRoslynInNET8\TestRoslynInNET8\obj\Debug\net8.0\TestRoslynInNET8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anastasiia.Posulikhi\TestRoslynInNET8\TestRoslynInNET8\obj\Debug\net8.0\TestRoslynInNET8.AssemblyInfoInputs.cache
+C:\Users\Anastasiia.Posulikhi\TestRoslynInNET8\TestRoslynInNET8\obj\Debug\net8.0\TestRoslynInNET8.AssemblyInfo.cs
+C:\Users\Anastasiia.Posulikhi\TestRoslynInNET8\TestRoslynInNET8\obj\Debug\net8.0\TestRoslynInNET8.csproj.CoreCompileInputs.cache
+C:\Users\Anastasiia.Posulikhi\TestRoslynInNET8\TestRoslynInNET8\obj\Debug\net8.0\TestRoslynInNET8.MvcApplicationPartsAssemblyInfo.cache

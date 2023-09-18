@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZEBmQ44FZwgPmbtd5AvDVfTOE3BeGb+Hf6s92HFtOlCRFvbBBc4Nb8EknODdgWiNngbytJLIAnNrnQ4T1v2Zyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anastasiia.Posulikhi\\TestRoslynInNET8\\TestRoslynInNET8\\TestRoslynInNET8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.0-rc.1.23419.4\\microsoft.dotnet.ilcompiler.8.0.0-rc.1.23419.4.nupkg.sha512",
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.0-rc.1.23419.4\\microsoft.net.illink.tasks.8.0.0-rc.1.23419.4.nupkg.sha512",
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\system.text.encodings.web\\8.0.0-rc.1.23419.4\\system.text.encodings.web.8.0.0-rc.1.23419.4.nupkg.sha512",
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\system.text.json\\8.0.0-rc.1.23419.4\\system.text.json.8.0.0-rc.1.23419.4.nupkg.sha512",
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.0-rc.1.23419.4\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.0-rc.1.23419.4.nupkg.sha512"
+  ],
+  "logs": []
+}
