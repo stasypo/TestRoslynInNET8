@@ -20,6 +20,7 @@ interface ICallbacks
 
 internal partial class MyNativeLib
 {
+    // EXPECTED: partial method is generated successfully
     [LibraryImport(nameof(MyNativeLib))]
     public static partial void GetComInterface(out IComInterface comInterface);
 }

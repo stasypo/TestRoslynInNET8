@@ -30,6 +30,7 @@ public class ThirdModelNoNamespace
     public string P5 { get; set; } = string.Empty;
 }
 
+// EXPECTED: OptionsValidator generated with a source generator is used
 [OptionsValidator]
 public partial class FirstValidatorNoNamespace : IValidateOptions<FirstModelNoNamespace>
 {
@@ -39,6 +40,7 @@ public partial class FirstValidatorNoNamespace : IValidateOptions<FirstModelNoNa
     }
 }
 
+// EXPECTED: OptionsValidator generated with a source generator is used
 [OptionsValidator]
 public partial class SecondValidatorNoNamespace : IValidateOptions<SecondModelNoNamespace>
 {

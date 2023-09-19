@@ -48,7 +48,7 @@ public class MyPoco
     UnmappedMemberHandling = JsonUnmappedMemberHandling.Disallow,
     WriteIndented = true)]
 [JsonSerializable(typeof(MyPoco))]
-public partial class MyContext : JsonSerializerContext { }
+public partial class MyContext : JsonSerializerContext { } // EXPECTED: partial method is generated successfully
 
 public enum MyEnum
 {
@@ -56,6 +56,7 @@ public enum MyEnum
 
 public record Book(int id, string title, string author, int publishedYear);
 
+// EXPECTED: partial method is generated successfully
 [JsonSerializable(typeof(Book))]
 public partial class MyContext2 : JsonSerializerContext 
 { }

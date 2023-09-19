@@ -4,30 +4,17 @@
  * CA1859: Use concrete types when possible for improved performance
  * Default severity: None
  * Category: Performance
- * Quick fix: ?
- * https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1859
+ * Quick fix: no
  */
 public class CA1859
 {
-    abstract class A
+    public class X
     {
-        public virtual void M()
+        // Precondition: uncomment dotnet_diagnostic.CA1859.severity = warning in the .editorconfig
+        // EXPECTED: warning highlighting on `GetListPrivate`
+        private static IList<string> GetListPrivate()
         {
-        }
-    }
-
-    sealed class B
-    {
-    }
-
-    internal class C
-    {
-        private readonly A _a = new B();
-
-        public void Trigger()
-        {
-            //this performs a virtual call because _a is defined as an abstract class
-            _a.M();
+            return Array.Empty<string>();
         }
     }
 }
