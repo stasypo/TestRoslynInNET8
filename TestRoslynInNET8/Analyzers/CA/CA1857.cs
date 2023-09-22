@@ -33,9 +33,9 @@ public class CA1857
         MyLong2(20);
 
         // EXPECTED: suggestion highlighting on `u` (not flagged in VS)
-        MyInvalidUshort(u); 
+        MyInvalidUshort(u);
 
         // EXPECTED: suggestion highlighting on `10` (not flagged in VS)
-        MyInvalidUshort(10); 
+        MyInvalidUshort(10);
     }
 }
