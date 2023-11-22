@@ -8,6 +8,7 @@
         <PublishAot>true</PublishAot>
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
         <EnableConfigurationBindingGenerator>true</EnableConfigurationBindingGenerator>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
 
     <ItemGroup>
