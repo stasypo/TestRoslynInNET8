@@ -9,6 +9,11 @@
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
         <EnableConfigurationBindingGenerator>true</EnableConfigurationBindingGenerator>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+<!--        <AnalysisMode>None</AnalysisMode>-->
+<!--        <AnalysisModePerformance>None</AnalysisModePerformance>-->
+<!--        <AnalysisLevel>7.0</AnalysisLevel>-->
+<!--        <AnalysisLevelPerformance>7.0</AnalysisLevelPerformance>-->
+<!--        <RunAnalyzers>false</RunAnalyzers>-->
     </PropertyGroup>
 
     <ItemGroup>
