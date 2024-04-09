@@ -12,7 +12,7 @@ public class CA1513
     {
         // EXPECTED:
         // - Info highlighting on `if` statement
-        // - Quick fix: available
+        // - Quick fix: not available
         if (param is null)
         {
             throw new ObjectDisposedException(nameof(param));

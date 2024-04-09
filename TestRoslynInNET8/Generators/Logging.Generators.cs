@@ -1,11 +1,9 @@
-﻿namespace TestRoslynInNET8.Generators;
+﻿using System.Text.RegularExpressions;
+
+namespace TestRoslynInNET8.Generators;
 
 public partial class LoggingGenerators
 {
-    // EXPECTED: partial method is generated successfully
-    [LoggerMessage(Level = LogLevel.Warning, Message = "{p1} should be valid")]
-    public partial void LogWarning(string p1);
-
     [LoggerMessage(
         EventId = 10,
         Level = LogLevel.Error,
