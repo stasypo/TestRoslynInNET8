@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRoslynInNET8", "TestRoslynInNET8\TestRoslynInNET8.csproj", "{A2E227E9-8B20-4CD7-B3F2-696624AC64D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRoslynInNET9", "TestRoslynInNET9\TestRoslynInNET9.csproj", "{462A1845-E50B-4EEF-B4DE-A0BD0A54DB91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A2E227E9-8B20-4CD7-B3F2-696624AC64D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2E227E9-8B20-4CD7-B3F2-696624AC64D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2E227E9-8B20-4CD7-B3F2-696624AC64D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462A1845-E50B-4EEF-B4DE-A0BD0A54DB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462A1845-E50B-4EEF-B4DE-A0BD0A54DB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462A1845-E50B-4EEF-B4DE-A0BD0A54DB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462A1845-E50B-4EEF-B4DE-A0BD0A54DB91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
