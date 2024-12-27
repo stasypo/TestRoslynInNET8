@@ -14,7 +14,7 @@
 <!--            <AnalysisLevel>7.0</AnalysisLevel>-->
 <!--            <AnalysisLevelPerformance>7.0</AnalysisLevelPerformance>-->
 <!--            <RunAnalyzers>false</RunAnalyzers>-->
-<!--        <CodeAnalysisRuleSet>C:\Users\Anastasiia.Posulikhi\RiderProjects\TestRoslynInNET8_243\TestRoslynInNET9\Custom.ruleset</CodeAnalysisRuleSet>-->
+<!--            <CodeAnalysisRuleSet>../TestRoslynInNET9/Custom.ruleset</CodeAnalysisRuleSet>-->
     </PropertyGroup>
 
     <ItemGroup>
