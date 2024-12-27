@@ -30,13 +30,13 @@ public class ThirdModelNoNamespace
     public string P5 { get; set; } = string.Empty;
 }
 
-// EXPECTED: OptionsValidator generated with a source generator is used
+// EXPECTED: partial method is generated successfully
 [OptionsValidator]
 public partial class FirstValidatorNoNamespace : IValidateOptions<FirstModelNoNamespace>
 {
 }
 
-// EXPECTED: OptionsValidator generated with a source generator is used
+// EXPECTED: partial method is generated successfully
 [OptionsValidator]
 public partial class SecondValidatorNoNamespace : IValidateOptions<SecondModelNoNamespace>
 {
