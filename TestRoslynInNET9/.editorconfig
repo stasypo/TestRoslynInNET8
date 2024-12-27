@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# dotnet_diagnostic.CA1856.severity = warning
+# dotnet_diagnostic.ASP0026.severity = error

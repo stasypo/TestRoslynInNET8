@@ -1,0 +1,6 @@
+<RuleSet Name="Custom Ruleset" Description="Description" ToolsVersion="15.0">
+    <Rules AnalyzerId="Microsoft.CodeAnalysis.NetAnalyzers" RuleNamespace="Microsoft.CodeAnalysis.NetAnalyzers">
+        <Rule Id="CA1856" Action="Warning" />
+        <Rule Id="ASP0026" Action="Error" />
+    </Rules>
+</RuleSet>
